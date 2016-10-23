@@ -31,7 +31,7 @@ namespace ContactInformationFromEmail
             }
             catch(FullContactAPIException e)
             {
-                Console.WriteLine(e.Message + e.statusCode);
+                Console.WriteLine(e.Message);
             }
             
         }
